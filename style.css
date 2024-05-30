@@ -1,0 +1,82 @@
+.info {
+    background-color: rgb(0, 89, 255);
+    color: white;
+   
+} 
+
+.name {
+    flex: 1;
+}
+.contacts{
+   margin: left;
+}
+
+
+
+body {
+    margin:  3em;
+    padding: 1em;
+    
+}
+ h1 {
+    font-size: 3em;
+    text-align: inherit;
+    
+ }
+ h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+ }
+ h3 {
+    font-family: 'Courier New', Courier, monospace;
+ }
+ 
+
+ .details {
+font-weight: normal;
+font-size: 0.8em;
+ }
+
+ 
+ .educator, .enviro {
+    display: flex;
+    flex: 1;
+ }
+ strong {
+    font-weight: lighter;
+ }
+
+ @media (min-width:1000px ){
+    .experience {
+        display: flex;
+        margin: 2em;
+        padding: 1em;
+        
+     }
+    
+     .skills-highLights {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .information{
+        display: flex;
+        justify-content: space-evenly;
+    }
+ }
+
+@media  (max-width: 950px){
+    .info {
+        background-color: rgb(247, 0, 255);
+        border-radius: 1em;
+        padding: 1em;
+       
+        color: white;
+       
+    } 
+
+    /* body {
+        background-color: pink;
+        
+    } */
+}

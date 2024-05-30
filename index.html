@@ -3,9 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Nosimilo-CV</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello World</h1>
+    <div class="container">
+    <section class="info">
+        <div class="information row">
+            <div class="col-6">
+    <h1 class="name ">{{user.fullName}}</h1>
+   </div>
+    <div class="contacts col-6">
+<h3 class="strong">{{user.addressName}}
+    <div class="details">{{user.address}}</d></h3>
+       
+<h3 class="strong">{{user.phoneInfo}}
+    <div class="details">{{user.phone}}</div></h3>
+<h3 class="strong">{{user.emailInfo}}
+    <div class="details">{{user.email}}</div></h3>
+ </div>
+</div>
+</section>
+<section>
+    <h2>{{summary.name}}</h2>
+    <hr>
+    <p>{{summary.description}}
+</section>
+<section>
+<h2>{{SkilsHighlights.highlight}}</h2>
+<hr>
+<div class="skills-highLights">
+<ul class=" skills-1">
+    <li>{{SkilsHighlights.list1}}</li>
+    <li>{{SkilsHighlights.list2}}</li>
+    <li>{{SkilsHighlights.list3}} </li>
+</ul>
+
+<ul class="skills-2">
+    <li>{{SkilsHighlights.list4}}</li>
+    <li>{{SkilsHighlights.list5}} </li>
+    <li>{{SkilsHighlights.list6}}</li>
+</ul>
+</div>
+</section>
+<section>
+<h2>{{experience.name}}</h2>
+<hr>
+
+<div class="experience">
+    <div class="">
+<h3>{{education.first}} <strong>{{education.second}}</strong>
+    <div>{{education.third}} <strong>{{education.forth}}</strong></div>
+</h3>
+<div class="educator">
+<ul>
+    <li>{{educator.list1}}</li>
+        <li> {{educator.list2}}</li>
+            <li>{{educator.list3}}</li>
+                <li>{{educator.list4}}</li>
+</ul>
+</div>
+</div>
+<div >
+<h3> {{environmental.name}}<strong> {{environmental.date}}</strong>
+    <div> {{environmental.place}} <strong> {{environmental.remote}}</strong></div>
+</h3>
+<div class="enviro">
+<ul>
+    <li>{{environmental.list1}} </li>
+        <li>{{environmental.list2}} </li>
+            <li>{{environmental.list3}} </li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section>
+<h2>{{educations.name}}</h2>
+<hr>
+<h3>{{educations.degree}} <strong>{{educations.year}}</strong>
+    <div>{{educations.school}}<strong>{{educations.campus}}</strong></div>
+</h3>
+<h3>{{educations.matric}}  <strong>{{educations.matricYear}} </strong>
+    <div>{{educations.schoolName}}  <strong>{{educations.place}} </strong></div>
+</h3>
+</section>
+<section>
+<h2>{{language.name}}</h2>
+<hr>
+<ul>
+<li>{{language.english}}</li>
+<li> {{language.zulu}} </li>
+</ul>
+</section>
+<section>
+<h2>{{certifications.name}}</h2>
+<hr>
+<strong>
+    <ul>
+        <li>{{certifications.list1}}</li>
+        <li>{{certifications.list2}}</li>
+        <li>{{certifications.list3}}</li>
+    </ul>
+</strong>
+</section>
+</div>
 </body>
 </html>

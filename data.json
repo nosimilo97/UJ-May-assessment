@@ -1,38 +1,90 @@
 {
+    
     "user" : {
-        "fullName" : "",
-        "photo" : "",
-        "phone" : "",
-        "email" : ""
+        "fullName" : "Nosimilo Celiwe Mtshali",
+        "addressName" : "Address:",
+        "address" : "11 Lancaster Road, Westdene, Johannesburg",
+        "phoneInfo" : "phone:",
+        "phone" : "+27724679817",
+        "emailInfo" : "email:",
+        "email" : "celiwe097@gmail.com"
+    },
+
+    "summary" : {
+        "name" : "Summary",
+        "description" : "I am an energetic, ambitious person who has developed a mature and responsible approach to any task that I undertake, or situation that I am presented with. I possess excellent analytical and communications skills and dedicated approach to working in a highly controlled environment. I am eager to learn, I enjoy overcoming challenges, and I have a genuine interest in Environmental Science and making organizations successful. I am seeking entry level opportunities within the science sector that will help me grow and advance my skills."
+
+    },
+
+    "SkilsHighlights" : {
+        "highlight" : "Skils Highlights",
+        "list1" : "Proficient with Microsoft Office",
+        "list2" : "Innovative",
+        "list3" : " Excellent time management skills",
+        "list4" : "Technical Report writing",
+        "list5" : "Teamwork and collaboration",
+        "list6" : "Problem-Solving"
+
+    },
+
+    "experience" : {
+        "name" : "Experience"
     },
     "education" : {
-        "institutionName" : "",
-        "photo" : "",
-        "description" : ""
+        "name" : "Education",
+        "first" : "Assistant educator",
+        "second" : "11/2021-09/2023",
+        "third" : "Sizaminqibeko Combined School,",
+        "forth" : "KZN"
+        
     },
-    "foreignLanguage" : {
-        "language" : "",
-        "phrases" : [{
-            "englishPhrase" : "",
-            "foreignLanguage" : ""
-        },
-        {
-            "englishPhrase" : "",
-            "foreignLanguage" : ""
-        }]
+    "educator" : {
+        "list1" : "Provided support to a lead teacher in charge of a classroom. Assisted in creating lesson plans, documenting progress, and overseeing lesson preparations",
+        "list2" : "Ensured the classroom environment is safe and clean. Oversaw students during non-classroom times including in-between classes, during lunch, and on-field excursions.",
+        "list3" : "Collaborated with lead teachers to recognize issues students are facing and recommend solutions",
+        "list4" : "Assigned as a reading champion, supported children across the Primary age range to develop a love of Reading."
+
     },
-    "favouriteSubjects" : [
-        {
-            "name" : "",
-            "description" : ""
-        },
-        {
-            "name" : "",
-            "description" : ""
-        },
-        {
-            "name" : "",
-            "description" : ""
-        }
-    ]
+
+    "environmental" : {
+        "name": "Environmental Officer - ",
+        "date" : "05/2021- 09/2021",
+        "place" : "Hanell International Environment Network,",
+        "remote" : "Remote",
+        "list1" : "Participated in seminar series and was assigned to do weekly tasks to undertake any other tasks upholding the network objectives.",
+        "list2" : "Conducted research and analysis on topics such as environmental impact, pollution prevention techniques, and government regulations related to environmental issues.",
+        "list3" : "Prepared reports, charts, and other documentation detailing findings from research project."
+
+
+    },
+
+    "educations" : {
+        "name" : "Education",
+        "degree" : "Bachelor of Science in Environmental Sciences - ",
+        "year" : "2021",
+        "school" : "University of KwaZulu-Natal,",
+        "campus" : "Westville",
+        "matric" : "National Senior Certificate",
+        "schoolName" : "Star of the Sea High School, ",
+        "matricYear" : "2015",
+        "place" : "KZN"
+
+
+    },
+
+    "language" : {
+        "name" : "Languages",
+        "english" : "English - Proficient",
+        "zulu" : "Zulu - Native"
+    },
+
+    "certifications" : {
+        "name" : "Certifications",
+        "list1" : "Introduction to GIS for Conservation - VerndantLearn",
+        "list2" : "Digital Literacy Certificate - Remote",
+        "list3" : "Introduction to coding - SheCodes"
+    }
+    
+   
+
 }
